@@ -25,8 +25,6 @@ class MainActivity : AppCompatActivity() {
 
   private fun setListeners() {
     binding.btnArrow.setOnClickListener { expandLayout() }
-    //binding.txtNews.setOnClickListener { getNews() }
-    //binding.txtScores.setOnClickListener { getMatches() }
   }
 
   private fun expandLayout() {
